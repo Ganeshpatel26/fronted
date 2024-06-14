@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Web site created using create-react-app" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -24,9 +22,442 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <link href="animate.css" rel="stylesheet">
+    <link href="style-magnific-popup.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="shttps://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="pe-icon-7-stroke.css">
+
+    <link rel="stylesheet" href="helper.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <script src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-main.js" charset="UTF-8" crossorigin="*"></script>
+    <script src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-vendor.js" charset="UTF-8" crossorigin="*"></script>
+    <script src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-chunk-vendors.js" charset="UTF-8"
+        crossorigin="*"></script>
+    <script src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-chunk-common.js" charset="UTF-8"
+        crossorigin="*"></script>
+    <script src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-runtime.js" charset="UTF-8"
+        crossorigin="*"></script>
+    <script src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-app.js" charset="UTF-8" crossorigin="*"></script>
+    <script async="" src="https://embed.tawk.to/5f6b40d64704467e89f193ec/1fmu76tff" charset="UTF-8"
+        crossorigin="*"></script>
+    <script
+        src="https://connect.facebook.net/signals/config/2738114023105261?v=2.9.153&amp;r=stable&amp;domain=www.esarwa.com&amp;hme=c3a545c63044e8e9102d4f32d84a1137594d024f28e801d670bc76dc5c075575&amp;ex_m=67%2C112%2C99%2C103%2C58%2C3%2C93%2C66%2C15%2C91%2C84%2C49%2C51%2C158%2C161%2C172%2C168%2C169%2C171%2C28%2C94%2C50%2C73%2C170%2C153%2C156%2C165%2C166%2C173%2C121%2C14%2C48%2C178%2C177%2C123%2C17%2C33%2C38%2C1%2C41%2C62%2C63%2C64%2C68%2C88%2C16%2C13%2C90%2C87%2C86%2C100%2C102%2C37%2C101%2C29%2C25%2C154%2C157%2C130%2C27%2C10%2C11%2C12%2C5%2C6%2C24%2C21%2C22%2C54%2C59%2C61%2C71%2C95%2C26%2C72%2C8%2C7%2C76%2C46%2C20%2C97%2C96%2C9%2C19%2C18%2C81%2C53%2C79%2C32%2C70%2C0%2C89%2C31%2C78%2C83%2C45%2C44%2C82%2C36%2C4%2C85%2C77%2C42%2C39%2C34%2C80%2C2%2C35%2C60%2C40%2C98%2C43%2C75%2C65%2C104%2C57%2C56%2C30%2C92%2C55%2C52%2C47%2C74%2C69%2C23%2C105"
+        async=""></script>
+    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+    <script type="text/javascript">
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2738114023105261');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=2738114023105261&ev=PageView&noscript=1" /></noscript>
+
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RHP6MM64S5" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RHP6MM64S5');
+    </script>
+    <style>
+        .visible-xs,
+        .visible-sm,
+        .visible-md,
+        .visible-lg {
+            display: none !important;
+        }
+
+        .visible-xs-block,
+        .visible-xs-inline,
+        .visible-xs-inline-block,
+        .visible-sm-block,
+        .visible-sm-inline,
+        .visible-sm-inline-block,
+        .visible-md-block,
+        .visible-md-inline,
+        .visible-md-inline-block,
+        .visible-lg-block,
+        .visible-lg-inline,
+        .visible-lg-inline-block {
+            display: none !important;
+        }
+
+        @media (max-width: 767px) {
+            .visible-xs {
+                display: block !important;
+            }
+
+            table.visible-xs {
+                display: table !important;
+            }
+
+            tr.visible-xs {
+                display: table-row !important;
+            }
+
+            th.visible-xs,
+            td.visible-xs {
+                display: table-cell !important;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .visible-xs-block {
+                display: block !important;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .visible-xs-inline {
+                display: inline !important;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .visible-xs-inline-block {
+                display: inline-block !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .visible-sm {
+                display: block !important;
+            }
+
+            table.visible-sm {
+                display: table !important;
+            }
+
+            tr.visible-sm {
+                display: table-row !important;
+            }
+
+            th.visible-sm,
+            td.visible-sm {
+                display: table-cell !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .visible-sm-block {
+                display: block !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .visible-sm-inline {
+                display: inline !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .visible-sm-inline-block {
+                display: inline-block !important;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .visible-md {
+                display: block !important;
+            }
+
+            table.visible-md {
+                display: table !important;
+            }
+
+            tr.visible-md {
+                display: table-row !important;
+            }
+
+            th.visible-md,
+            td.visible-md {
+                display: table-cell !important;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .visible-md-block {
+                display: block !important;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .visible-md-inline {
+                display: inline !important;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .visible-md-inline-block {
+                display: inline-block !important;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .visible-lg {
+                display: block !important;
+            }
+
+            table.visible-lg {
+                display: table !important;
+            }
+
+            tr.visible-lg {
+                display: table-row !important;
+            }
+
+            th.visible-lg,
+            td.visible-lg {
+                display: table-cell !important;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .visible-lg-block {
+                display: block !important;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .visible-lg-inline {
+                display: inline !important;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .visible-lg-inline-block {
+                display: inline-block !important;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .hidden-xs {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .hidden-sm {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .hidden-md {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .hidden-lg {
+                display: none !important;
+            }
+        }
+    </style>
+
+    <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+          <![endif]-->
+
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-chunk-2c776523.js"></script>
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-chunk-9294da6c.js"></script>
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-chunk-f1565420.js"></script>
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-chunk-2d0b383d.js"></script>
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-chunk-48f3b594.js"></script>
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-chunk-4fe9d5dd.js"></script>
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-chunk-2d0b9454.js"></script>
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/660e2260004/js/twk-chunk-24d8db78.js"></script>
+    <style type="text/css">
+        #ltsjm31b4klg1712814429603 {
+            outline: none !important;
+            visibility: visible !important;
+            resize: none !important;
+            box-shadow: none !important;
+            overflow: visible !important;
+            background: none !important;
+            opacity: 1 !important;
+            filter: alpha(opacity=100) !important;
+            -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity 1) !important;
+            -mz-opacity: 1 !important;
+            -khtml-opacity: 1 !important;
+            top: auto !important;
+            right: 0px !important;
+            bottom: 0px !important;
+            left: auto !important;
+            position: fixed !important;
+            border: 0 !important;
+            min-height: 0px !important;
+            min-width: 0px !important;
+            max-height: none !important;
+            max-width: none !important;
+            padding: 0px !important;
+            margin: 0px !important;
+            -moz-transition-property: none !important;
+            -webkit-transition-property: none !important;
+            -o-transition-property: none !important;
+            transition-property: none !important;
+            transform: none !important;
+            -webkit-transform: none !important;
+            -ms-transform: none !important;
+            width: auto !important;
+            height: auto !important;
+            display: none !important;
+            z-index: 2000000000 !important;
+            background-color: transparent !important;
+            cursor: none !important;
+            float: none !important;
+            border-radius: unset !important;
+            pointer-events: auto !important;
+            clip: auto !important;
+            color-scheme: light !important;
+        }
+
+        #ltsjm31b4klg1712814429603.widget-hidden {
+            display: none !important;
+        }
+
+        #ltsjm31b4klg1712814429603.widget-visible {
+            display: block !important;
+        }
+
+        @media print {
+            #ltsjm31b4klg1712814429603.widget-visible {
+                display: none !important;
+            }
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js" type="text/javascript" async=""
+        defer=""></script>
+    <script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js" type="text/javascript" async=""
+        defer=""></script>
+    <style type="text/css">
+        @keyframes tawkMaxOpen {
+            0% {
+                opacity: 0;
+                transform: translate(0, 30px);
+                ;
+            }
+
+            to {
+                opacity: 1;
+                transform: translate(0, 0px);
+            }
+        }
+
+        @-moz-keyframes tawkMaxOpen {
+            0% {
+                opacity: 0;
+                transform: translate(0, 30px);
+                ;
+            }
+
+            to {
+                opacity: 1;
+                transform: translate(0, 0px);
+            }
+        }
+
+        @-webkit-keyframes tawkMaxOpen {
+            0% {
+                opacity: 0;
+                transform: translate(0, 30px);
+                ;
+            }
+
+            to {
+                opacity: 1;
+                transform: translate(0, 0px);
+            }
+        }
+
+        #s291e8tlsskg1712814429641.open {
+            animation: tawkMaxOpen .25s ease !important;
+        }
+
+        @keyframes tawkMaxClose {
+            from {
+                opacity: 1;
+                transform: translate(0, 0px);
+                ;
+            }
+
+            to {
+                opacity: 0;
+                transform: translate(0, 30px);
+                ;
+            }
+        }
+
+        @-moz-keyframes tawkMaxClose {
+            from {
+                opacity: 1;
+                transform: translate(0, 0px);
+                ;
+            }
+
+            to {
+                opacity: 0;
+                transform: translate(0, 30px);
+                ;
+            }
+        }
+
+        @-webkit-keyframes tawkMaxClose {
+            from {
+                opacity: 1;
+                transform: translate(0, 0px);
+                ;
+            }
+
+            to {
+                opacity: 0;
+                transform: translate(0, 30px);
+                ;
+            }
+        }
+
+        #s291e8tlsskg1712814429641.closed {
+            animation: tawkMaxClose .25s ease !important
+        }
+    </style>
+
+
+
     <title>React App</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +470,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>
