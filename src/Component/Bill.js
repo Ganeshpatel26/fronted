@@ -39,59 +39,6 @@ function Bill() {
     doc.save(`bill_${bill._id}.pdf`);
   };
 
-  // full working with header
-  // const handleDownloadAllBills = () => {
-  //   const doc = new jsPDF();
-
-  //   // Set initial y-coordinate and margin
-  //   let yOffset = 20;
-  //   const margin = 10;
-
-  //   // Set up the table headers
-  //   const headers = ['#', 'Title', 'Amount', 'Date'];
-
-  //   // Set up column widths and row height
-  //   const columnWidths = [20, 60, 40, 50]; // Adjust column widths as needed
-  //   const rowHeight = 10; // Adjust row height as needed
-
-  //   // Add table title
-  //   doc.setFontSize(12);
-  //   doc.text('All Bills', margin, yOffset);
-  //   yOffset += 10; // Increment y-coordinate for the next line
-
-  //   // Draw table headers without background color
-  //   headers.forEach((header, index) => {
-  //     doc.rect(margin + columnWidths.slice(0, index).reduce((sum, width) => sum + width, 0), yOffset, columnWidths[index], rowHeight);
-  //     doc.setTextColor(0, 0, 0); // Set text color to black
-  //     doc.text(header, margin + columnWidths.slice(0, index).reduce((sum, width) => sum + width, 0) + columnWidths[index] / 2, yOffset + rowHeight / 2, { align: 'center', valign: 'middle' });
-  //   });
-
-  //   // Move to the next row
-  //   yOffset += rowHeight;
-
-  //   // Draw table data with borders
-  //   bills.forEach((bill, index) => {
-  //     const rowData = [
-  //       (index + 1).toString(),
-  //       bill.title,
-  //       `$${bill.amount}`,
-  //       moment(bill.createdAt).format('MMMM Do YYYY')
-  //     ];
-
-  //     rowData.forEach((cellData, columnIndex) => {
-  //       // Draw cell with borders
-  //       doc.rect(margin + columnWidths.slice(0, columnIndex).reduce((sum, width) => sum + width, 0), yOffset, columnWidths[columnIndex], rowHeight);
-  //       doc.text(cellData, margin + columnWidths.slice(0, columnIndex).reduce((sum, width) => sum + width, 0) + columnWidths[columnIndex] / 2, yOffset + rowHeight / 2, { align: 'center', valign: 'middle' });
-  //     });
-
-  //     // Move to the next row
-  //     yOffset += rowHeight;
-  //   });
-
-  //   // Save the PDF
-  //   doc.save('all_bills.pdf');
-  // };
-
 
 
   // Remove date from bill
