@@ -12,7 +12,7 @@ function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:3005/login', { email, password });
+            const response = await axios.post('https://billing-app-mern.onrender.com/login', { email, password });
             const { message, token } = response.data;
             if (message === 'Success') {
                 localStorage.setItem('token', token);

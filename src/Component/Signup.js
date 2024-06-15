@@ -13,7 +13,7 @@ function Signup() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3005/signup', { name, email, password })
+        axios.post('https://billing-app-mern.onrender.com/signup', { name, email, password })
             .then(result => {
                 console.log(result);
                 setMessage('Registration successful!');

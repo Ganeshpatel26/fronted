@@ -9,13 +9,13 @@ function Bill() {
   const [amount, setAmount] = useState('');
 
   useEffect(() => {
-    axios.get('http://localhost:3005/bills')
+    axios.get('https://billing-app-mern.onrender.com/bills')
       .then(res => setBills(res.data))
       .catch(err => console.log(err));
   }, []);
 
   const handleAddBill = () => {
-    axios.post('http://localhost:3005/bills', { title, amount })
+    axios.post('https://billing-app-mern.onrender.com/bills', { title, amount })
       .then(res => {
         setBills([...bills, res.data]);
         setTitle('');
@@ -25,7 +25,7 @@ function Bill() {
   };
 
   const handleDeleteBill = (id) => {
-    axios.delete(`http://localhost:3005/bills/${id}`)
+    axios.delete(`https://billing-app-mern.onrender.com/bills/${id}`)
       .then(() => {
         setBills(bills.filter(bill => bill._id !== id));
       })
