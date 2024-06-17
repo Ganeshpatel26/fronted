@@ -737,7 +737,7 @@ ul.footer_social li a i:hover {
 }
 
 .home-section-overlay {
-    background: url(images/hero-circles2.png) top center no-repeat;
+    background: url(public/images/hero-circles2.png) top center no-repeat;
     width: 100%;
     opacity: .89;
     position: absolute;
@@ -1473,7 +1473,7 @@ a.button-blog:hover {
 }
 
 .download-app-wrapper {
-    background: url(images/310.jpeg) top center no-repeat;
+    background: url(public/images/310.jpeg) top center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -1496,7 +1496,7 @@ a.button-blog:hover {
 }
 
 .shape-grey-image-top {
-    background: url(images/shape-top-right-grey.png) top center no-repeat;
+    background: url(public/images/shape-top-right-grey.png) top center no-repeat;
     background-size: contain;
     background-attachment: scroll;
     width: 100%;
