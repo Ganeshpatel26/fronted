@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 // import moment from 'moment';
 import jsPDF from 'jspdf';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Bill() {
   const [bills, setBills] = useState([]);

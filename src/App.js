@@ -9,7 +9,8 @@ import Login from './Component/Login';
 import Signup from './Component/Signup';
 import Bill from './Component/Bill';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
